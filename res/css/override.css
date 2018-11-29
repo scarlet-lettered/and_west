@@ -1,0 +1,17 @@
+body {
+  background-color: black;
+  color: orange;
+}
+
+
+#logo {
+  max-width: 90%;
+}
+
+h3 a {
+  color: orange;
+}
+
+.custcontact a:hover {
+  color:  #ffb84d;
+}

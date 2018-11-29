@@ -1,0 +1,25 @@
+html, body {
+  font-size: 16px;
+}
+
+#headlogo {
+  max-width: 375px;
+}
+
+header a {
+  color: darkorange;
+  font-size: 1.25rem;
+}
+
+header a:hover {
+  color: navajowhite;
+  }
+
+.jumbotron {
+  background-image: url("../img/excavation-sunny.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: auto;
+  min-height: 800px;
+}
