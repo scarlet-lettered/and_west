@@ -55,3 +55,9 @@ header a:hover {
 .aboutus h2 {
     font-family: "Crete Round", serif;
 }
+
+@media only screen and (max-width: 768px) {
+  .jumbotron {
+    background-image: url("../img/excavation-sunny-sq.png");
+  }
+}
