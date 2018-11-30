@@ -2,6 +2,8 @@ html, body {
   font-size: 16px;
 }
 
+/* HEADER */
+
 #headlogo {
   max-width: 375px;
 }
@@ -15,6 +17,17 @@ header a:hover {
   color: navajowhite;
   }
 
+@media only screen and (min-width: 768px){
+
+}
+
+@media only screen and (max-width: 768px){
+  .nophone {
+    display: none;
+  }
+}
+
+/* JUMBOTRON */
 .jumbotron {
   background-image: url("../img/excavation-sunny.png");
   background-size: cover;
@@ -22,4 +35,23 @@ header a:hover {
   width: 100%;
   height: auto;
   min-height: 800px;
+  padding-top: 200px;
+
+}
+
+.jumbotron .btn {
+  font-weight: bold;
+  color: darkorange;
+  font-size: 1.5rem;
+}
+
+.aboutus {
+  background-color: hsla(0, 0%, 41.2%, 0.6);
+  flex-direction: column;
+  align-items: center;
+  /* color: navajowhite; */
+}
+
+.aboutus h2 {
+    font-family: "Crete Round", serif;
 }
