@@ -123,6 +123,10 @@ header a:hover {
   font-family: "Crete Round", serif;
 }
 
+#ourservices p {
+  font-size: 1.25rem;
+}
+
 /* EMAIL US */
 #emailus {
   background-color: darkorange;
