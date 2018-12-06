@@ -3,9 +3,12 @@ body {
   color: orange;
 }
 
-
 #logo {
   max-width: 90%;
+}
+
+.jumbotron h3 {
+  font-family: "Pacifico", cursive;
 }
 
 h3 a {

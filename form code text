@@ -1,0 +1,27 @@
+<h1 class="text-center">Get an Estimate</h1>
+<p>Stuff about how eager we are to hear from you here.</p>
+<form class="contact" action="contact.php" method="post" role="form">
+  <div class="messages">
+    <div class="row">
+      <div class="col-md-6">
+        <label for="custname">Name<input type="text" name="custname" value="" placeholder="Your name"></label>
+      </div>
+      <div class="col-md-6">
+        <label for="custphone" class="col-md-3">Phone</label>
+          <input type="text" name="custphone" value="" placeholder="Your phone">
+            <label for="mobile" class="col-md-1">mobile? <input type="radio" name="y-n" value="">y</label>
+            <label for="mobile" class="col-md-1"> <input type="radio" name="y-n" value="">n</label>
+      </div>
+
+    </div>
+    <div class="row">
+      <label for="custemail">Email <input type="text" name="custemail" value="" placeholder="Your email"></label>
+      <label for="custstubject">Please tell us what you need</label>
+    </div>
+    <div class="container-fluid">
+      <label for="custmessage">Message<input type="text" name="custmessage" value="" placeholder="Your message"></label>
+      <button type="button" name="submit" class="btn btn-secondary">Submit</button>
+    </div>
+  </div>
+</form>
+</section>

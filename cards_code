@@ -1,0 +1,41 @@
+<!-- OURSERVICES CARDS -->
+<section class="container-fluid bg-light pt-2" id="ourservices">
+  <div class="container-fluid text-center pb-2" class="section-title">
+    <h2>Our Services</h2>
+    <h5>Commercial or Residential <br> No job too big or too small</h5>
+  </div>
+  <div class="container-fluid mt-2" id="services-cards">
+    <div class="container-fluid d-flex flex-column service-card bg-dark rounded text-light">
+      <div class="container-fluid card-img">
+      </div>
+      <div class="container-fluid d-flex flex-column card-text m-2">
+        <h4>Crane Services</h4>
+        <p>Personal or industrial rigging and hoisting</p>
+      </div>
+    </div>
+    <div class="container-fluid d-flex flex-column service-card bg-dark rounded text-light m-2">
+      <div class="container-fluid card-img">
+      </div>
+      <div class="container-fluid flex-column card-text">
+        <h4>Excavation</h4>
+        <p>Stuff about excavation</p>
+      </div>
+    </div>
+    <div class="container-fluid d-flex flex-column service-card bg-dark rounded text-light m-2">
+      <div class="container-fluid card-img">
+      </div>
+      <div class="container-fluid card-text flex-column">
+        <h4>Grading and Paving</h4>
+        <p>Stuff about grading and paving here</p>
+      </div>
+    </div>
+    <div class="container-fluid d-flex flex-column service-card bg-dark rounded text-light m-2">
+      <div class="container-fluid card-img">
+      </div>
+      <div class="container-fluid flex-column card-text">
+        <h4>Snow Removal</h4>
+        <p>Stuff about snow removal here</p>
+      </div>
+    </div>
+  </div>
+</section>

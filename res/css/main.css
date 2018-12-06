@@ -1,11 +1,16 @@
 html, body {
   font-size: 16px;
+  font-family: "Ubuntu", sans-serif;
 }
 
 /* HEADER */
 
 #headlogo {
   max-width: 375px;
+}
+
+#minilogo {
+  max-width: 250px;
 }
 
 header a {
@@ -17,18 +22,32 @@ header a:hover {
   color: navajowhite;
   }
 
-@media only screen and (min-width: 768px){
 
+@media only screen and (min-width: 768px){
+  .phone {
+    display: none;
+  }
 }
 
 @media only screen and (max-width: 768px){
   .nophone {
     display: none;
   }
+
+  .phone a {
+    color: black;
+    font-weight: bold;
+  }
+
+  .phone a:hover {
+    color: darkorange;
+    text-decoration: none;
+  }
+
 }
 
-/* JUMBOTRON */
-.jumbotron {
+/* #HOME */
+#home  {
   background-image: url("../img/excavation-sunny.png");
   background-size: cover;
   background-repeat: no-repeat;
@@ -36,13 +55,27 @@ header a:hover {
   height: auto;
   min-height: 800px;
   padding-top: 200px;
+  margin-bottom: 0;
 
 }
 
-.jumbotron .btn {
+#home .btn {
   font-weight: bold;
   color: darkorange;
   font-size: 1.5rem;
+}
+
+#home a {
+  color: darkorange;
+}
+
+#home a:hover {
+  color: navajowhite;
+  text-decoration: none;
+}
+
+#home a:visited {
+  color: darkorange;
 }
 
 .aboutus {
@@ -57,7 +90,67 @@ header a:hover {
 }
 
 @media only screen and (max-width: 768px) {
-  .jumbotron {
+  #home {
     background-image: url("../img/excavation-sunny-sq.png");
   }
+
+  #home h1 {
+    font-size: 1.5rem;
+  }
+
+  #home .btn {
+    font-size: 1rem;
+  }
+}
+
+/* SERVICES */
+#ourservices {
+  background-image: none;
+  margin-top: 0;
+}
+
+#ourservices .carousel-caption {
+  background-color: hsla(0, 0%, 41.2%, 0.6);
+}
+
+#ourservices h1 {
+  font-family: "Crete Round", serif;
+  font-weight: bold;
+  color: darkorange;
+}
+
+#ourservices h2 {
+  font-family: "Crete Round", serif;
+}
+
+/* EMAIL US */
+#emailus {
+  background-color: darkorange;
+  color: white;
+}
+
+#emailus h1 {
+  font-family: "Crete Round", serif;
+}
+
+/* FOOTER */
+
+#copy {
+  color: darkorange;
+  font-family: "Crete Round", serif;
+}
+
+footer a {
+  color: white;
+  text-decoration: none;
+}
+
+footer a:hover {
+  color: navajowhite;
+  text-decoration: none;
+}
+
+footer a:visited {
+  color: darkorange;
+  text-decoration: none;
 }
