@@ -1,0 +1,98 @@
+html, body {
+  font-size: 16px;
+  font-family: "Ubuntu", sans-serif;
+}
+
+html, body {
+  font-size: 16px;
+  font-family: "Ubuntu", sans-serif;
+}
+
+/* HEADER */
+
+#headlogo {
+  max-width: 375px;
+}
+
+#mini-logo img {
+  max-width: 250px;
+  max-height: 100px;
+}
+
+header a {
+  color: darkorange;
+  font-size: 1.25rem;
+}
+
+header a:hover {
+  color: navajowhite;
+  }
+
+.navbar-brand img {
+  max-width: 430px;
+  height: auto;
+}
+
+@media only screen and (min-width: 768px){
+  .phone {
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 768px){
+  .nophone {
+    display: none;
+  }
+
+  .phone a {
+    color: black;
+    font-weight: bold;
+  }
+
+  .phone a:hover {
+    color: darkorange;
+    text-decoration: none;
+  }
+
+  .phone .navbar-brand img {
+    max-height: 100px;
+  }
+
+}
+
+/* MAIN */
+#title {
+  width: 100%;
+
+}
+#title h1 {
+  color: darkorange;
+  font-family: "Crete Round", serif;
+}
+
+.card {
+  max-height: 325px;
+}
+
+/* FOOTER */
+
+#copy {
+  color: darkorange;
+  font-family: "Crete Round", serif;
+}
+
+footer a {
+  color: white;
+  text-decoration: none;
+  font-size: 1rem;
+}
+
+footer a:hover {
+  color: navajowhite;
+  text-decoration: none;
+}
+
+footer a:visited {
+  color: darkorange;
+  text-decoration: none;
+}
